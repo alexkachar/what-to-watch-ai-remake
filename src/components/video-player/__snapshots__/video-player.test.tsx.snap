@@ -1,0 +1,104 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`VideoPlayer renders correctly 1`] = `
+<div
+  className="player"
+>
+  <video
+    className="player__video"
+    onCanPlay={[MockFunction spy]}
+    onTimeUpdate={[MockFunction spy]}
+    poster="img/the-grand-budapest-hotel-bg.jpg"
+    src="https://some-link"
+  />
+  <a
+    href="/"
+    onClick={[Function]}
+  >
+    <button
+      className="player__exit"
+      onClick={[MockFunction spy]}
+      type="button"
+    >
+      Exit
+    </button>
+  </a>
+  <div
+    className="player__controls"
+  >
+    <div
+      className="player__controls-row"
+    >
+      <div
+        className="player__time"
+      >
+        <progress
+          className="player__progress"
+          max={100}
+          value={30}
+        />
+        <div
+          className="player__toggler"
+          style={
+            {
+              "left": "30%",
+            }
+          }
+        >
+          Toggler
+        </div>
+      </div>
+      <div
+        className="player__time-value"
+      >
+        00:01:10
+      </div>
+    </div>
+    <div
+      className="player__controls-row"
+    >
+      <button
+        className="player__play"
+        onClick={[MockFunction spy]}
+        type="button"
+      >
+        <svg
+          height={19}
+          viewBox="0 0 19 19"
+          width={19}
+        >
+          <use
+            xlinkHref="#pause"
+          />
+        </svg>
+        <span>
+          Play
+        </span>
+      </button>
+      <div
+        className="player__name"
+      >
+        The Grand Budapest Hotel
+      </div>
+      <button
+        className="player__full-screen"
+        onClick={[Function]}
+        type="button"
+      >
+        <svg
+          height={27}
+          viewBox="0 0 27 27"
+          width={27}
+        >
+          <use
+            xlinkHref="#full-screen"
+          />
+        </svg>
+        <span>
+          Full screen
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,29 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`UserBlock renders correctly 1`] = `
+<div
+  className="user-block"
+>
+  <a
+    className="user-block__avatar"
+    href="/favorites"
+    onClick={[Function]}
+    style={
+      {
+        "textDecoration": "none",
+      }
+    }
+  >
+    <img
+      src="https://htmlacademy-react-3.appspot.com/img/john_doe.jpg"
+      style={
+        {
+          "borderRadius": "50%",
+          "height": "63px",
+          "width": "63px",
+        }
+      }
+    />
+  </a>
+</div>
+`;

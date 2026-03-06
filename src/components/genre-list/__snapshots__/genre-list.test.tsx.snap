@@ -1,0 +1,128 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`GenreList renders correctly 1`] = `
+<ul
+  className="catalog__genres-list"
+>
+  <li
+    className="catalog__genres-item null"
+  >
+    <a
+      className="catalog__genres-link"
+      onClick={[Function]}
+      style={
+        {
+          "cursor": "pointer",
+        }
+      }
+    >
+      All genres
+    </a>
+  </li>
+  <li
+    className="catalog__genres-item catalog__genres-item--active"
+  >
+    <a
+      className="catalog__genres-link"
+      onClick={[Function]}
+      style={
+        {
+          "cursor": "pointer",
+        }
+      }
+    >
+      Action
+    </a>
+  </li>
+  <li
+    className="catalog__genres-item null"
+  >
+    <a
+      className="catalog__genres-link"
+      onClick={[Function]}
+      style={
+        {
+          "cursor": "pointer",
+        }
+      }
+    >
+      Adventure
+    </a>
+  </li>
+  <li
+    className="catalog__genres-item null"
+  >
+    <a
+      className="catalog__genres-link"
+      onClick={[Function]}
+      style={
+        {
+          "cursor": "pointer",
+        }
+      }
+    >
+      Comedy
+    </a>
+  </li>
+  <li
+    className="catalog__genres-item null"
+  >
+    <a
+      className="catalog__genres-link"
+      onClick={[Function]}
+      style={
+        {
+          "cursor": "pointer",
+        }
+      }
+    >
+      Crime
+    </a>
+  </li>
+  <li
+    className="catalog__genres-item null"
+  >
+    <a
+      className="catalog__genres-link"
+      onClick={[Function]}
+      style={
+        {
+          "cursor": "pointer",
+        }
+      }
+    >
+      Drama
+    </a>
+  </li>
+  <li
+    className="catalog__genres-item null"
+  >
+    <a
+      className="catalog__genres-link"
+      onClick={[Function]}
+      style={
+        {
+          "cursor": "pointer",
+        }
+      }
+    >
+      Fantasy
+    </a>
+  </li>
+  <li
+    className="catalog__genres-item null"
+  >
+    <a
+      className="catalog__genres-link"
+      onClick={[Function]}
+      style={
+        {
+          "cursor": "pointer",
+        }
+      }
+    >
+      Thriller
+    </a>
+  </li>
+</ul>
+`;

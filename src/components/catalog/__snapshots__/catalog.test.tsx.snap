@@ -1,0 +1,272 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Catalog renders correctly 1`] = `
+<section
+  className="catalog"
+>
+  <h2
+    className="catalog__title visually-hidden"
+  >
+    Catalog
+  </h2>
+  <ul
+    className="catalog__genres-list"
+  >
+    <li
+      className="catalog__genres-item null"
+    >
+      <a
+        className="catalog__genres-link"
+        onClick={[Function]}
+        style={
+          {
+            "cursor": "pointer",
+          }
+        }
+      >
+        All genres
+      </a>
+    </li>
+    <li
+      className="catalog__genres-item catalog__genres-item--active"
+    >
+      <a
+        className="catalog__genres-link"
+        onClick={[Function]}
+        style={
+          {
+            "cursor": "pointer",
+          }
+        }
+      >
+        Action
+      </a>
+    </li>
+    <li
+      className="catalog__genres-item null"
+    >
+      <a
+        className="catalog__genres-link"
+        onClick={[Function]}
+        style={
+          {
+            "cursor": "pointer",
+          }
+        }
+      >
+        Adventure
+      </a>
+    </li>
+    <li
+      className="catalog__genres-item null"
+    >
+      <a
+        className="catalog__genres-link"
+        onClick={[Function]}
+        style={
+          {
+            "cursor": "pointer",
+          }
+        }
+      >
+        Comedy
+      </a>
+    </li>
+    <li
+      className="catalog__genres-item null"
+    >
+      <a
+        className="catalog__genres-link"
+        onClick={[Function]}
+        style={
+          {
+            "cursor": "pointer",
+          }
+        }
+      >
+        Crime
+      </a>
+    </li>
+    <li
+      className="catalog__genres-item null"
+    >
+      <a
+        className="catalog__genres-link"
+        onClick={[Function]}
+        style={
+          {
+            "cursor": "pointer",
+          }
+        }
+      >
+        Drama
+      </a>
+    </li>
+    <li
+      className="catalog__genres-item null"
+    >
+      <a
+        className="catalog__genres-link"
+        onClick={[Function]}
+        style={
+          {
+            "cursor": "pointer",
+          }
+        }
+      >
+        Fantasy
+      </a>
+    </li>
+    <li
+      className="catalog__genres-item null"
+    >
+      <a
+        className="catalog__genres-link"
+        onClick={[Function]}
+        style={
+          {
+            "cursor": "pointer",
+          }
+        }
+      >
+        Thriller
+      </a>
+    </li>
+  </ul>
+  <div
+    className="catalog__movies-list"
+  >
+    <article
+      className="small-movie-card catalog__movies-card"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <a
+        href="/film/1"
+        onClick={[Function]}
+      >
+        <div
+          className="small-movie-card__image"
+        >
+          <video
+            height="175"
+            muted={true}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            poster="img/the-grand-budapest-hotel.jpg"
+            src="https://some-link"
+            width="280"
+          />
+        </div>
+      </a>
+      <h3
+        className="small-movie-card__title"
+      >
+        <a
+          className="small-movie-card__link"
+          href="/film/1"
+          onClick={[Function]}
+          style={
+            {
+              "color": "#c9b37e",
+            }
+          }
+        >
+          The Grand Budapest Hotel
+        </a>
+      </h3>
+    </article>
+    <article
+      className="small-movie-card catalog__movies-card"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <a
+        href="/film/2"
+        onClick={[Function]}
+      >
+        <div
+          className="small-movie-card__image"
+        >
+          <video
+            height="175"
+            muted={true}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            poster="https://htmlacademy-react-3.appspot.com/wtw/static/film/preview/moonrise-kingdom.jpg"
+            src="https://download.blender.org/durian/trailer/sintel_trailer-480p.mp4"
+            width="280"
+          />
+        </div>
+      </a>
+      <h3
+        className="small-movie-card__title"
+      >
+        <a
+          className="small-movie-card__link"
+          href="/film/2"
+          onClick={[Function]}
+          style={
+            {
+              "color": "#c9b37e",
+            }
+          }
+        >
+          Moonrise Kingdom
+        </a>
+      </h3>
+    </article>
+    <article
+      className="small-movie-card catalog__movies-card"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <a
+        href="/film/15"
+        onClick={[Function]}
+      >
+        <div
+          className="small-movie-card__image"
+        >
+          <video
+            height="175"
+            muted={true}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            poster="https://htmlacademy-react-3.appspot.com/wtw/static/film/preview/fantastic-beasts-the-crimes-of-grindelwald.jpg"
+            src="https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b3/Big_Buck_Bunny_Trailer_400p.ogv/Big_Buck_Bunny_Trailer_400p.ogv.360p.webm"
+            width="280"
+          />
+        </div>
+      </a>
+      <h3
+        className="small-movie-card__title"
+      >
+        <a
+          className="small-movie-card__link"
+          href="/film/15"
+          onClick={[Function]}
+          style={
+            {
+              "color": "#c9b37e",
+            }
+          }
+        >
+          Fantastic Beasts: The Crimes of Grindelwald
+        </a>
+      </h3>
+    </article>
+  </div>
+  <div
+    className="catalog__more"
+  >
+    <button
+      className="catalog__button"
+      onClick={[Function]}
+      type="button"
+    >
+      Show more
+    </button>
+  </div>
+</section>
+`;

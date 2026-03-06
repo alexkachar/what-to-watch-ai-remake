@@ -1,0 +1,92 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`MovieReviews renders correctly 1`] = `
+<div
+  className="movie-card__reviews movie-card__row"
+>
+  <div
+    className="movie-card__reviews-col"
+  >
+    <div
+      className="review"
+      style={
+        {
+          "borderBottomColor": "rgba(255,255,255,.24)",
+        }
+      }
+    >
+      <blockquote
+        className="review__quote"
+      >
+        <p
+          className="review__text"
+        >
+          Discerning travellers and Wes Anderson fans will luxuriate in the glorious Mittel-European kitsch of one of the director's funniest and most exquisitely designed movies in years.
+        </p>
+        <footer
+          className="review__details"
+        >
+          <cite
+            className="review__author"
+          >
+            Kate Muir
+          </cite>
+          <time
+            className="review__date"
+            dateTime="2019-05-08T14:13:56.569Z"
+          >
+            May 8, 2019
+          </time>
+        </footer>
+      </blockquote>
+      <div
+        className="review__rating"
+      >
+        8.9
+      </div>
+    </div>
+  </div>
+  <div
+    className="movie-card__reviews-col"
+  >
+    <div
+      className="review"
+      style={
+        {
+          "borderBottomColor": "rgba(255,255,255,.24)",
+        }
+      }
+    >
+      <blockquote
+        className="review__quote"
+      >
+        <p
+          className="review__text"
+        >
+          The mannered, madcap proceedings are often delightful, occasionally silly, and here and there, gruesome and/or heartbreaking.
+        </p>
+        <footer
+          className="review__details"
+        >
+          <cite
+            className="review__author"
+          >
+            Amanda Greever
+          </cite>
+          <time
+            className="review__date"
+            dateTime="2020-06-02T13:12:46.569Z"
+          >
+            June 2, 2020
+          </time>
+        </footer>
+      </blockquote>
+      <div
+        className="review__rating"
+      >
+        8.2
+      </div>
+    </div>
+  </div>
+</div>
+`;
