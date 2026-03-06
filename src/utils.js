@@ -15,20 +15,20 @@ export const formatMovie = (movie) => (
     id: movie.id,
     title: movie.name,
     genre: movie.genre,
-    posterImage: movie.poster_image,
-    previewImage: movie.preview_image,
-    backgroundImage: movie.background_image,
-    backgroundColor: movie.background_color,
-    videoLink: movie.video_link,
-    previewVideoLink: movie.preview_video_link,
+    posterImage: movie.posterImage,
+    previewImage: movie.previewImage,
+    backgroundImage: movie.backgroundImage,
+    backgroundColor: movie.backgroundColor,
+    videoLink: movie.videoLink,
+    previewVideoLink: movie.previewVideoLink,
     description: movie.description,
     rating: movie.rating,
-    scoresCount: movie.scores_count,
+    scoresCount: movie.scoresCount,
     director: movie.director,
     starring: movie.starring,
-    runTime: movie.run_time,
+    runTime: movie.runTime,
     released: movie.released,
-    isFavorite: movie.is_favorite,
+    isFavorite: movie.isFavorite,
   }
 );
 
@@ -72,7 +72,7 @@ export const formatUser = (user) => ({
   id: user.id,
   email: user.email,
   name: user.name,
-  avatarUrl: user.avatar_url,
+  avatarUrl: user.avatarUrl,
 });
 
 export const formatTime = (time) => {
