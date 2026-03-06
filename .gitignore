@@ -11,9 +11,9 @@ Thumbs.db
 *.log*
 node_modules/
 
-# Файлы бандла¬
-public/bundle¬
-public/bundle.map¬
-¬
-# Файлы TODO¬
-todo.md¬
+# Build output
+dist/
+tsconfig.tsbuildinfo
+
+# Файлы TODO
+todo.md
