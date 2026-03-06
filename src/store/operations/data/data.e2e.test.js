@@ -42,7 +42,7 @@ describe(`Load operation works correctly`, () => {
     const dataLoader = Operation.loadPromoMovie();
 
     apiMock
-      .onGet(`/films/promo`)
+      .onGet(`/promo`)
       .reply(200, RAW_MOVIES[0]);
 
     return dataLoader(dispatch, jest.fn(), api)

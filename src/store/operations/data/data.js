@@ -16,12 +16,14 @@ const Operation = {
 
   loadPromoMovie: () => (dispatch, getState, api) => {
     dispatch(DataActionCreator.setLoadingFlag(true));
-    return api.get(`/films/promo`)
+    return api.get(`/promo`)
       .then(
           (response) => {
             dispatch(DataActionCreator.getPromoMovie(formatMovie(response.data)));
-            dispatch(DataActionCreator.setLoadingFlag(false));
-          });
+          })
+      .finally(() => {
+        dispatch(DataActionCreator.setLoadingFlag(false));
+      });
   },
 
   loadFavorites: () => (dispatch, getState, api) => {
