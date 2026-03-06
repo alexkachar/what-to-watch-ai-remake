@@ -1,4 +1,4 @@
-export const API_BASE = `https://4.react.pages.academy/wtw`;
+export const API_BASE = `https://10.react.htmlacademy.pro/wtw`;
 
 export const AVATAR_BASE = `https://htmlacademy-react-3.appspot.com`;
 
