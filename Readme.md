@@ -1,26 +1,31 @@
 # "What to Watch" React/Redux portfolio project
 
 Main technologies:
- - React
- - Redux
- - TypeScript
- - Axios
- - ReactRouter
- - Jest
- - Enzyme
+- React 18
+- Redux Toolkit
+- TypeScript 5
+- Axios
+- React Router 6
+- Vite
+- Vitest
+- Testing Library
 
-## Projects npm scripts:
+## Getting started
+
+Install dependencies:
 
 ```sh
-start: "webpack-dev-server"
-build: "webpack --mode production"
-test: "npm run eslint && npm run test.jest"
-
-eslint: "npm run eslint.js && npm run eslint.ts"
-eslint.js: "eslint --ext .jsx --ext .js src/"
-eslint.ts: "eslint --config .eslintrc-ts.yml --ext .tsx src/"
-test.jest: "jest"
+npm install
 ```
 
-_Do not remove and change folders:_
-_`.editorconfig`, `.gitattributes`, `.gitignore`, `.travis.yml`, `package.json`._
+## npm scripts
+
+```sh
+npm start           # start Vite dev server on port 1337
+npm run build       # production build
+npm run preview     # preview production build locally
+npm test            # run tests (single pass)
+npm run test:watch  # run tests in watch mode
+npm run typecheck   # TypeScript type checking
+npm run eslint      # lint source files
+```
